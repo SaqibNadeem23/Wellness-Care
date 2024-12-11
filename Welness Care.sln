@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welness Care.Android", "Welness Care\Welness Care.Android\Welness Care.Android.csproj", "{B2BE75AB-5B73-4D4D-8B91-B297865A0CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welness Care", "Welness Care\Welness Care\Welness Care.csproj", "{A68CC0D6-6CD7-4375-97C3-BD6541EB130E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2BE75AB-5B73-4D4D-8B91-B297865A0CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BE75AB-5B73-4D4D-8B91-B297865A0CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BE75AB-5B73-4D4D-8B91-B297865A0CAF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B2BE75AB-5B73-4D4D-8B91-B297865A0CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BE75AB-5B73-4D4D-8B91-B297865A0CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BE75AB-5B73-4D4D-8B91-B297865A0CAF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A68CC0D6-6CD7-4375-97C3-BD6541EB130E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68CC0D6-6CD7-4375-97C3-BD6541EB130E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68CC0D6-6CD7-4375-97C3-BD6541EB130E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A68CC0D6-6CD7-4375-97C3-BD6541EB130E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68CC0D6-6CD7-4375-97C3-BD6541EB130E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68CC0D6-6CD7-4375-97C3-BD6541EB130E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D82E7A4-1185-4E64-BA6B-39D3001638DC}
+	EndGlobalSection
+EndGlobal

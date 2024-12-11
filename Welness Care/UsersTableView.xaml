@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welness_Care.UsersTableView">
+
+
+
+    <ScrollView Orientation="Both">
+
+        <StackLayout Margin="5,30" x:Name="MS">
+
+            <StackLayout Orientation="Horizontal">
+
+                <StackLayout  WidthRequest="150">
+                    <Label Text="UserId"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="UserName"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="FullName"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="PhoneNumber"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="Email"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150" >
+                    <Label Text="Gender"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150" >
+                    <Label Text="Password"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="UserType"></Label>
+                </StackLayout>
+
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

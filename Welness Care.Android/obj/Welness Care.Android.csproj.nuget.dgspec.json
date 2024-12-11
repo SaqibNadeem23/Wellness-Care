@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care.Android\\Welness Care.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care.Android\\Welness Care.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care.Android\\Welness Care.Android.csproj",
+        "projectName": "Welness Care.Android",
+        "projectPath": "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care.Android\\Welness Care.Android.csproj",
+        "packagesPath": "C:\\Users\\Saqib\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saqib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care\\Welness Care.csproj": {
+                "projectPath": "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care\\Welness Care.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care\\Welness Care.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care\\Welness Care.csproj",
+        "projectName": "Welness Care",
+        "projectPath": "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care\\Welness Care.csproj",
+        "packagesPath": "C:\\Users\\Saqib\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Saqib\\Desktop\\Github\\Event Aasani\\Wellness Care Project\\Welness Care\\Welness Care\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Saqib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2578, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2578, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

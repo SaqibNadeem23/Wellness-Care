@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welness_Care.DBView">
+
+
+
+    <ScrollView>
+        <StackLayout>
+            <Label HorizontalOptions="CenterAndExpand" FontSize="Title" TextColor="#0275d8" Text="Select the Table to View"></Label>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </Frame.GestureRecognizers>
+                <StackLayout Margin="10" Orientation="Horizontal">
+                    <Image HeightRequest="30" WidthRequest="30" Margin="0,0,20,0" Source="user"></Image>
+
+                    <Label Text="Users Table" TextColor="#0275d8" FontSize="Medium"></Label>
+                </StackLayout>
+            </Frame>
+
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"></TapGestureRecognizer>
+                </Frame.GestureRecognizers>
+                <StackLayout Margin="10" Orientation="Horizontal">
+                    <Image HeightRequest="30" WidthRequest="30" Margin="0,0,20,0" Source="user"></Image>
+
+                    <Label Text="MSPData Table" TextColor="#0275d8" FontSize="Medium"></Label>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

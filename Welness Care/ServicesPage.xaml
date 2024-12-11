@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welness_Care.ServicesPage"  BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+        <Label Text="Services" HorizontalOptions="Center" TextColor="#0275d8" FontSize="Title"></Label>
+
+            <Label Text="Enter Service Charges" FontFamily="serif" TextColor="#0275d8"></Label>
+            <Entry x:Name="ChargesEntry" FontFamily="serif" Placeholder="100" TextColor="Black" Keyboard="Numeric"></Entry>
+
+
+            <Label Text="Please Select Your Services" FontFamily="serif" HorizontalOptions="CenterAndExpand" TextColor="#0275d8" FontSize="Subtitle"></Label>
+
+
+        <ScrollView>
+            <StackLayout>
+
+                
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="BloodPressure"></Image>
+                            <Label Text="Blood Pressure" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="BPSwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+                
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="Injection"></Image>
+                            <Label Text="Injections" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="InjectionsSwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+                
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="Bandages"></Image>
+                            <Label Text="Bandages" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="BandagesSwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+                
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="Insulin"></Image>
+                            <Label Text="Insulin" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="InsulinSwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+                
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="PainKiller"></Image>
+                            <Label Text="Pain Killer" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="PainKillerSwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+               
+
+               
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="ChestPain"></Image>
+                            <Label Text="Chest Pain" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="ChestPainSwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+               
+
+               
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="MinorInjury"></Image>
+                            <Label Text="Minor Injury" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="MinorInjurySwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+               
+
+               
+                    <Grid ColumnDefinitions="30*, 40*, 30*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                        <Image HeightRequest="30" HorizontalOptions="Center" Grid.Column="0" WidthRequest="30" Source="BreathingProblem"></Image>
+                            <Label Text="Breathing Problem" FontFamily="serif" HorizontalOptions="Center" Grid.Column="1" TextColor="#1b1b1b"></Label>
+                        <Switch x:Name="BreatingProblemSwtich" HorizontalOptions="Center" Grid.Column="2"></Switch>
+                    </Grid>
+                
+
+
+            </StackLayout>
+        </ScrollView>
+        <StackLayout VerticalOptions="EndAndExpand" HeightRequest="70">
+            <Button x:Name="Update" CornerRadius="25" FontFamily="serif" Clicked="Update_Clicked" Text="Update" TextColor="WhiteSmoke" BackgroundColor="#0275d8">
+            </Button>
+
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

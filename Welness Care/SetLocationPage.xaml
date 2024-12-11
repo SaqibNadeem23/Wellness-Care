@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Welness_Care.SetLocationPage" BackgroundColor="White">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label TextColor="#1b1b1b" FontSize="Medium" HorizontalTextAlignment="Center" Text="Tap to Select Location"></Label>
+            <maps:Map x:Name="map" MapClicked="map_MapClicked" IsShowingUser="True" Margin="0,10" MapType="Street" HasZoomEnabled="True"  HasScrollEnabled="True">
+
+            </maps:Map>
+            
+
+            <StackLayout HeightRequest="70">
+                <Button x:Name="Location" VerticalOptions="EndAndExpand" CornerRadius="25" FontFamily="serif" Clicked="Location_Clicked" Text="Set Location" TextColor="WhiteSmoke" BackgroundColor="#0275d8">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

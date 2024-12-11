@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welness_Care.CompletedBookingDetails" BackgroundColor="White">
+    
+        
+        <StackLayout>
+        <Frame>
+            <StackLayout>
+                <Label Text="You have been assigned with a task, kindly complete it as soon as possible." FontFamily="serif" HorizontalOptions="CenterAndExpand" TextColor="#0275d8" FontSize="Subtitle"></Label>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="userb.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Patient Name: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="ServiceProviderNameLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="mobile.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Mobile Number: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="MobileNumberLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image x:Name="ServiceImage" HeightRequest="30" WidthRequest="30" Source="motorcycle.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Service Type: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="ServiceNameLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="gender.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Gender: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="GenderLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="date.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Booking Date: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="BookingDateLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="status.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Status: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Completed" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="charges.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Service Charges: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="ServiceChargesLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="distanceharges.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Distance Charges: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="DistanceChargesLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout VerticalOptions="Center">
+                        <Image HeightRequest="30" WidthRequest="30" Source="totalbill.png"></Image>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="Total Charges: " TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Label Text="" x:Name="TotalChargesLabel" TextColor="DarkBlue"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+    
+</ContentPage>

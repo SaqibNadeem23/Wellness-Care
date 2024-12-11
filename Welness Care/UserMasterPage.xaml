@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welness_Care.UserMasterPage"
+             xmlns:pages="clr-namespace:Welness_Care" xmlns:local1="clr-namespace:Welness_Care">
+    
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <StackLayout HeightRequest="200" BackgroundColor="WhiteSmoke">
+
+                    <Image HeightRequest="100" WidthRequest="100" Margin="0,15,0,0" Source="WellnessLogo.png"></Image>
+                    <Label x:Name="lb2" Text=""  TextColor="#0275d8" Margin="20,0,0,20" FontSize="Title" VerticalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <StackLayout Margin="20,20">
+                    <Frame>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <StackLayout Margin="10" Orientation="Horizontal">
+                            <Image HeightRequest="20" WidthRequest="20" Margin="0,0,20,0" Source="userb"></Image>
+                            <Label Text="My Profile" TextColor="#1b1b1b"></Label>
+                        </StackLayout>
+                    </Frame>
+                    <Frame>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <StackLayout Margin="10" Orientation="Horizontal">
+                            <Image HeightRequest="20" WidthRequest="20" Margin="0,0,20,0" Source="logoutbl"></Image>
+                            <Label Text="Logout" TextColor="#1b1b1b" FontFamily="serif"></Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+        <NavigationPage  BackgroundColor="WhiteSmoke">
+            <x:Arguments>
+                <ContentPage  Title="Main">
+                    
+                    <StackLayout>
+                        <StackLayout x:Name="MainStack" BackgroundColor="WhiteSmoke">
+                        <StackLayout x:Name="GenderStack">
+                                <Grid ColumnDefinitions="80*, 20*"
+                                    HorizontalOptions="FillAndExpand" Margin="0,5">
+                                    <Label Text="Show Female Service Providers Only?" HorizontalOptions="Center" Grid.Column="0" FontFamily="serif" TextColor="#0275d8" FontSize="Small"></Label>
+                                    <Switch x:Name="StatusSwtich" HorizontalOptions="Center" Grid.Column="1" Toggled="StatusSwtich_Toggled"></Switch>
+                                </Grid>
+                            </StackLayout>
+                        
+                        
+                        
+                        <Label Text="Please Select Service Type For Patient" FontFamily="serif" HorizontalOptions="CenterAndExpand" TextColor="#0275d8" FontSize="Subtitle"></Label>
+                            <ScrollView>
+                                <StackLayout>     
+                        <Grid ColumnDefinitions="50*, 50*"
+                                    HorizontalOptions="FillAndExpand">
+                            <Frame Grid.Column="0" HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="BloodPressure"></Image>
+                                    <Label Text="Blood Pressure" FontFamily="serif" VerticalOptions="Center" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Grid.Column="1"  HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="Injection"></Image>
+                                    <Label Text="Injections" FontFamily="serif" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+                            
+                        </Grid>
+                       
+                        <Grid ColumnDefinitions="50*, 50*"
+                                    HorizontalOptions="FillAndExpand">
+                            <Frame Grid.Column="0"  HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="Bandages"></Image>
+                                    <Label Text="Bandages" FontFamily="serif" VerticalOptions="Center" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Grid.Column="1" HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="Insulin"></Image>
+                                    <Label Text="Insulin" FontFamily="serif" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+
+                        </Grid>
+
+                        <Grid ColumnDefinitions="50*, 50*"
+                                    HorizontalOptions="FillAndExpand">
+                            
+                            <Frame Grid.Column="0"  HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="PainKiller"></Image>
+                                    <Label Text="Pain Killer" FontFamily="serif" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Grid.Column="1"  HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_7"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="ChestPain"></Image>
+                                    <Label Text="Chest Pain" FontFamily="serif" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="50*, 50*"
+                                    HorizontalOptions="FillAndExpand">
+                            <Frame Grid.Column="0" HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_8"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="MinorInjury"></Image>
+                                    <Label Text="Minor Injury" FontFamily="serif" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+                            <Frame Grid.Column="1"  HeightRequest="80">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_9"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Image HeightRequest="30" WidthRequest="30" Source="BreathingProblem"></Image>
+                                    <Label Text="Breathing Problem" HorizontalTextAlignment="Center" FontFamily="serif" TextColor="#1b1b1b"></Label>
+                                </StackLayout>
+                            </Frame>
+                            
+                        </Grid>
+                                </StackLayout>
+                            </ScrollView>
+
+
+
+
+
+                        </StackLayout>
+                        
+                    <StackLayout x:Name="OrdetStack" IsVisible="false" BackgroundColor="WhiteSmoke">
+                            
+                        <Frame>
+                                    <StackLayout>
+                                    <ScrollView>
+                                        <StackLayout>
+                                        <Label Text="Your booking has been completed, The Medical Service Provider is on its way" FontFamily="serif" HorizontalOptions="CenterAndExpand" TextColor="#0275d8" FontSize="Subtitle"></Label>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="userb.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Service Provider Name: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="ServiceProviderNameLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="mobile.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Mobile Number: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="MobileNumberLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image x:Name="ServiceImage" HeightRequest="30" WidthRequest="30" Source="motorcycle.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Service Type: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="ServiceNameLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="gender.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Gender: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="GenderLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal">
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Image HeightRequest="30" WidthRequest="30" Source="designation.png"></Image>
+                                                </StackLayout>
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Label Text="Designation: " TextColor="Black"></Label>
+                                                </StackLayout>
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Label Text="" x:Name="DesignationLabel" TextColor="DarkBlue"></Label>
+                                                </StackLayout>
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal">
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Image HeightRequest="30" WidthRequest="30" Source="experience.png"></Image>
+                                                </StackLayout>
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Label Text="Experience: " TextColor="Black"></Label>
+                                                </StackLayout>
+                                                <StackLayout VerticalOptions="Center">
+                                                    <Label Text="" x:Name="ExperienceLabel" TextColor="DarkBlue"></Label>
+                                                </StackLayout>
+                                            </StackLayout>
+
+                                            <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="date.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Booking Date: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="BookingDateLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="status.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Status: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Active" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="charges.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Service Charges: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="ServiceChargesLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="distanceharges.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Distance Charges: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="DistanceChargesLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal">
+                                            <StackLayout VerticalOptions="Center">
+                                                <Image HeightRequest="30" WidthRequest="30" Source="totalbill.png"></Image>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="Total Charges: " TextColor="Black"></Label>
+                                            </StackLayout>
+                                            <StackLayout VerticalOptions="Center">
+                                                <Label Text="" x:Name="TotalChargesLabel" TextColor="DarkBlue"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+                                        </StackLayout>
+                                    </ScrollView>
+                                         <local1:CustomMap x:Name="meramap" HeightRequest="200" VerticalOptions="EndAndExpand" IsShowingUser="True" Margin="0,10" MapType="Street" HasZoomEnabled="True"  HasScrollEnabled="True">
+
+                                        </local1:CustomMap>
+                                    </StackLayout>
+                                </Frame>
+                                
+                            
+                        </StackLayout>
+                    </StackLayout>
+                    
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
+</FlyoutPage>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welness_Care.MSPDataTableView">
+    
+    
+    <ScrollView Orientation="Both">
+
+        <StackLayout Margin="5,30" x:Name="MS">
+
+            <StackLayout Orientation="Horizontal">
+
+                <StackLayout  WidthRequest="150">
+                    <Label Text="Id"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="MSPId"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="Gender"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="ActiveStatus"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="MSPLatitude"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150" >
+                    <Label Text="MSPLongitude"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150" >
+                    <Label Text="ServiceCharges"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="BloodPressureService"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="InjectionsService"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150" >
+                    <Label Text="BandagesService"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="InsulinService"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150" >
+                    <Label Text="PainKillerService"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="ChestPainService"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150" >
+                    <Label Text="MinorInjuryService"></Label>
+                </StackLayout>
+                <StackLayout  WidthRequest="150">
+                    <Label Text="BreathingProblemService"></Label>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

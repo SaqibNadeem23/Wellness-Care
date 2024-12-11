@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Welness_Care.Login" BackgroundColor="White">
+
+    <StackLayout>
+
+        <StackLayout HeightRequest="200" WidthRequest="600" Margin="0,50,0,0">
+
+            <Image HeightRequest="200" WidthRequest="600" Source="WellnessLogo.png"></Image>
+
+        </StackLayout>
+        <StackLayout  VerticalOptions="Center" Margin="55,0">
+
+            <Entry x:Name="name" FontFamily="serif" PlaceholderColor="#0275d8" TextColor="Black" Placeholder="Username"></Entry>
+            <Entry x:Name="ps1" FontFamily="serif" Margin="0,20,0,0" PlaceholderColor="#0275d8" TextColor="Black" Placeholder="Password" IsPassword="True"></Entry>
+            <Button x:Name="LoginButton" CornerRadius="25" Margin="30,15" FontFamily="serif" Clicked="LoginButton_Clicked" Text="Login" TextColor="Black" BackgroundColor="#0275d8"></Button>
+            <Label Text="Sign Up" Margin="50,15,50,15" FontFamily="serif" TextDecorations="Underline" TextColor="#0275d8" HorizontalOptions="Center" FontSize="Medium">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </Label.GestureRecognizers>
+            </Label>
+
+  
+        </StackLayout>
+        <StackLayout  VerticalOptions="Center">
+            <Label Text="Register as a Medical Service Provider" FontFamily="serif" TextDecorations="Underline" TextColor="#0275d8" HorizontalOptions="Center" FontSize="Medium">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"></TapGestureRecognizer>
+                </Label.GestureRecognizers>
+                
+            </Label>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

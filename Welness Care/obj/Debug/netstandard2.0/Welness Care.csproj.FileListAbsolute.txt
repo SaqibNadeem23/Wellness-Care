@@ -1,0 +1,120 @@
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.deps.json
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\bin\Debug\netstandard2.0\ref\Welness Care.dll
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.AssemblyReference.cache
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\AdminView.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\DBView.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPMasterPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\PopPage1.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\ServicesPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\SetLocationPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Signup.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\SignupMSP.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserInfo.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMap.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMasterPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\UsersTableView.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfoInputs.cache
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfo.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.CoreCompileInputs.cache
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\ref\Welness Care.dll
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPDataTableView.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookings.xaml.g.cs
+C:\Users\Saqib\source\repos\Welness Care\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookingDetails.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.deps.json
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\bin\Debug\netstandard2.0\ref\Welness Care.dll
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.AssemblyReference.cache
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\AdminView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookingDetails.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookings.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\DBView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPDataTableView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPMasterPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\PopPage1.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\ServicesPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\SetLocationPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Signup.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\SignupMSP.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserInfo.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMap.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMasterPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\UsersTableView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfoInputs.cache
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfo.cs
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.CoreCompileInputs.cache
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\ref\Welness Care.dll
+C:\Users\Saqib\source\repos\Wekness care changes\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.deps.json
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\bin\Debug\netstandard2.0\ref\Welness Care.dll
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.AssemblyReference.cache
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\AdminView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookingDetails.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookings.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\DBView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPDataTableView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPMasterPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\PopPage1.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\ServicesPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\SetLocationPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Signup.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\SignupMSP.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserInfo.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMap.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMasterPage.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UsersTableView.xaml.g.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfoInputs.cache
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfo.cs
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.CoreCompileInputs.cache
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\ref\Welness Care.dll
+C:\Users\Saqib\source\repos\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.deps.json
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\bin\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.AssemblyReference.cache
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\AdminView.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookingDetails.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\CompletedBookings.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\DBView.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPDataTableView.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\MSPMasterPage.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\PopPage1.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\ServicesPage.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\SetLocationPage.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Signup.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\SignupMSP.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserInfo.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMap.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UserMasterPage.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\UsersTableView.xaml.g.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfoInputs.cache
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.AssemblyInfo.cs
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.csproj.CoreCompileInputs.cache
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.dll
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\refint\Welness Care.dll
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\Welness Care.pdb
+C:\Users\Saqib\Desktop\Github\Event Aasani\Wellness Care Project\Welness Care\Welness Care\obj\Debug\netstandard2.0\ref\Welness Care.dll
